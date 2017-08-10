@@ -14,6 +14,10 @@
       "silent": true,
       "selenium_host": "127.0.0.1",
       "selenium_port": 9515,
+      "request_timeout_options": {
+        "timeout": 1000,
+        "retry_attempts": 5
+      },
       "screenshots": {
         "enabled": true,
         "on_failure": true,
